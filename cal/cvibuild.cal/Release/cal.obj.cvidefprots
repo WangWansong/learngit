@@ -1,0 +1,100 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[Transform]
+Class="Function"
+Prototype="void Transform();"
+
+[Show]
+Class="Function"
+Prototype="void Show();"
+
+[Re]
+Class="Function"
+Prototype="void Re();"
+
+[GetResult]
+Class="Function"
+Prototype="void GetResult();"
+
+[Reset]
+Class="Function"
+Prototype="int Reset(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Delet]
+Class="Function"
+Prototype="int Delet(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Divide]
+Class="Function"
+Prototype="int Divide(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[input7]
+Class="Function"
+Prototype="int input7(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[input8]
+Class="Function"
+Prototype="int input8(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Multiply]
+Class="Function"
+Prototype="int Multiply(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[input4]
+Class="Function"
+Prototype="int input4(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[input5]
+Class="Function"
+Prototype="int input5(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[input6]
+Class="Function"
+Prototype="int input6(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Minus]
+Class="Function"
+Prototype="int Minus(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[input1]
+Class="Function"
+Prototype="int input1(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[input2]
+Class="Function"
+Prototype="int input2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[input3]
+Class="Function"
+Prototype="int input3(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Plus]
+Class="Function"
+Prototype="int Plus(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[input9]
+Class="Function"
+Prototype="int input9(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Sign]
+Class="Function"
+Prototype="int Sign(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[input0]
+Class="Function"
+Prototype="int input0(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Point1]
+Class="Function"
+Prototype="int Point1(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Equal]
+Class="Function"
+Prototype="int Equal(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Close]
+Class="Function"
+Prototype="int Close(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+

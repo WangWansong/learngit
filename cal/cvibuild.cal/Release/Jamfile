@@ -1,0 +1,41 @@
+HDRS = 	"e:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\activex\\word"
+	"e:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\activex\\excel"
+	"e:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\custctrl"
+	"e:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\custctrl\\custsupp"
+	"e:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\cvirtsup"
+	"e:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\datasock"
+	"e:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\daqUtil"
+	"e:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\printing"
+	"e:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\toolbox"
+	"e:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\reportgen"
+	"e:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\localui"
+	"e:\\program files (x86)\\national instruments\\cvi2013\\instr"
+	"E:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"E:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"E:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\instr"
+	"e:\\program files (x86)\\national instruments\\cvi2013\\include"
+	"E:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"e:\\program files (x86)\\national instruments\\cvi2013\\include\\ansi"
+	"e:\\program files (x86)\\national instruments\\cvi2013\\include\\clang\\2.9"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"E:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"e:\\program files (x86)\\national instruments\\cvi2013\\sdk\\include"
+	"e:\\Program Files (x86)\\National Instruments\\CVI2013\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2013\\bin"
+	"e:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "cal.c" = "c:\\Users\\Administrator\\Desktop\\wws\\cal" ;
+Object "c:\\Users\\Administrator\\Desktop\\wws\\cal\\cvibuild.cal\\Release\\cal.obj" : "c:\\Users\\Administrator\\Desktop\\wws\\cal\\cal.c" ;
+FILENUM on "c:\\Users\\Administrator\\Desktop\\wws\\cal\\cvibuild.cal\\Release\\cal.obj" = 1 ;
+DEFPROTS on "c:\\Users\\Administrator\\Desktop\\wws\\cal\\cvibuild.cal\\Release\\cal.obj" = "c:\\Users\\Administrator\\Desktop\\wws\\cal\\cvibuild.cal\\Release\\cal.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\Administrator\\Desktop\\wws\\cal\\cvibuild.cal\\Release\\cal.obj" = "c:\\Users\\Administrator\\Desktop\\wws\\cal\\cvibuild.cal\\Release\\cal.obj.out" ;
+PrjObjects += "c:\\Users\\Administrator\\Desktop\\wws\\cal\\cvibuild.cal\\Release\\cal.obj" ;
+Object "c:\\Users\\Administrator\\Desktop\\wws\\cal\\cvibuild.cal\\Release\\resources.res" : "c:\\Users\\Administrator\\Desktop\\wws\\cal\\cvibuild.cal\\Release\\resources.in.rc" ;
+MainFromObjects "c:\\Users\\Administrator\\Desktop\\wws\\cal\\cvibuild.cal\\Release\\cal.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\Administrator\\Desktop\\wws\\cal\\cvibuild.cal\\Release\\cal.exe" : "c:\\Users\\Administrator\\Desktop\\wws\\cal\\cvibuild.cal\\Release\\link_options.txt" ;
+Depends "c:\\Users\\Administrator\\Desktop\\wws\\cal\\cvibuild.cal\\Release\\cal.exe" : "c:\\Users\\Administrator\\Desktop\\wws\\cal\\cvibuild.cal\\Release\\resources.res" ;
+Depends all : "c:\\Users\\Administrator\\Desktop\\wws\\cal\\cvibuild.cal\\Release\\cal.exe" ;
